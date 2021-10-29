@@ -1,1 +1,1 @@
-# What is ICC Profile？
+# What is ICC profile？
