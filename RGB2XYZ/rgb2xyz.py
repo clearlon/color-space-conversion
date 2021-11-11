@@ -6,7 +6,7 @@ def rgb_E2L(Ergb, COLOR_SPACE='709'):
     Lrgb = Ergb.copy()
     Lrgb1 = Ergb.copy()
     Lrgb2 = Ergb.copy()
-    if COLOR_SPACE == 'hlg:
+    if COLOR_SPACE == 'hlg':
         a = 0.17883277
         b = 1 - 4 * a
         c = 0.5 - a * np.log(4 * a)
